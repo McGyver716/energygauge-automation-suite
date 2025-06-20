@@ -1,0 +1,48 @@
+{
+  "lot_id": "Lot102_Sample",
+  "project_info": {
+    "name": "Sample Project 2",
+    "address": "456 Oak St",
+    "city": "Tampa",
+    "state": "FL",
+    "zip": "33601"
+  },
+  "building_data": {
+    "conditioned_floor_area": 1850.0,
+    "windows": {
+      "N": {
+        "area": 85.2,
+        "u_factor": 0.28,
+        "shgc": 0.22
+      },
+      "S": {
+        "area": 110.8,
+        "u_factor": 0.28,
+        "shgc": 0.22
+      },
+      "E": {
+        "area": 65.5,
+        "u_factor": 0.28,
+        "shgc": 0.22
+      }
+    },
+    "walls": {
+      "WoodFrameExt": {
+        "area": 1420.0,
+        "r_value": 21.0
+      }
+    },
+    "infiltration": {
+      "ach50": 6.5
+    }
+  },
+  "hvac": {
+    "system1": {
+      "tonnage": 2.5,
+      "seer2": 16.0
+    }
+  },
+  "duct": {
+    "location": "Conditioned Space"
+  }
+}

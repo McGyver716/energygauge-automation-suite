@@ -1,0 +1,30 @@
+# EnergyGauge USA Template Project File
+# This is a placeholder template file for testing
+# In a real implementation, this would be an actual EnergyGauge project file
+
+[Project Info]
+Name=Template Project
+Version=1.0
+Created=2024-01-01
+
+[Building Data]
+ConditionedFloorArea=0
+Stories=1
+Foundation=Slab
+
+[Default Values]
+# These would be replaced by actual project data
+WindowUFactor=0.30
+WindowSHGC=0.25
+WallRValue=13.0
+InfiltrationACH50=7.0
+
+[HVAC]
+SystemCount=1
+System1Type=HeatPump
+System1Tonnage=2.5
+System1SEER=14.0
+
+[Notes]
+This is a template file that serves as the starting point for all projects.
+The automation script will load this template and populate it with actual data from JSON inputs.

@@ -1,0 +1,28 @@
+# EnergyGauge USA Automation Requirements
+# Install with: pip install -r requirements.txt
+
+# Windows COM interface
+pywin32>=304
+
+# Image processing and OCR
+opencv-python>=4.5.0
+pytesseract>=0.3.8
+easyocr>=1.6.0
+
+# File monitoring
+watchdog>=2.1.0
+
+# Data processing
+pandas>=1.5.0
+
+# GUI (Tkinter is included with Python)
+# Additional GUI libraries (optional)
+# PySimpleGUI>=4.60.0
+# PyQt5>=5.15.0
+
+# Utility packages
+Pillow>=9.0.0
+numpy>=1.21.0
+
+# Note: On Linux systems, some Windows-specific packages may not install
+# The script includes fallback handling for missing dependencies

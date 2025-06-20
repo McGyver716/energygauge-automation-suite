@@ -1,0 +1,44 @@
+{
+  "lot_id": "Lot101_Sample",
+  "project_info": {
+    "name": "Sample Project",
+    "address": "123 Main St",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801"
+  },
+  "building_data": {
+    "conditioned_floor_area": 2402.0,
+    "windows": {
+      "NE": {
+        "area": 120.5,
+        "u_factor": 0.32,
+        "shgc": 0.25
+      },
+      "SW": {
+        "area": 98.3,
+        "u_factor": 0.32,
+        "shgc": 0.25
+      }
+    },
+    "walls": {
+      "WoodFrameExt": {
+        "area": 1650.0,
+        "r_value": 19.0
+      }
+    },
+    "infiltration": {
+      "ach50": 7.0
+    }
+  },
+  "hvac": {
+    "system1": {
+      "tonnage": 3.0,
+      "seer2": 15.0
+    }
+  },
+  "duct": {
+    "location": "Interior"
+  },
+  "floor_plan_image": "floorplans/Lot101_plan.png"
+}
